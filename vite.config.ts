@@ -7,9 +7,6 @@ export default defineConfig({
     port: 3000,
   },
   plugins: [react()],
-  define: {
-    global: "globalThis",
-  },
   css: {
     preprocessorOptions: {
       scss: {
